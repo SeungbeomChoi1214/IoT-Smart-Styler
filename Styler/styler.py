@@ -9,9 +9,9 @@ import ujson
 # ----------------------------------------------------------------
 # 설정 (와이파이 및 MQTT)
 # ----------------------------------------------------------------
-SSID = "IoT518"       # 와이파이 이름
-PASSWORD = "iot123456"   # 와이파이 비밀번호
-MQTT_SERVER = "192.168.0.14"   # 라즈베리 파이 IP 주소
+SSID = "YOUR_WIFI_SSID"
+PASSWORD = "YOUR_WIFI_PASSWORD"
+MQTT_SERVER = "YOUR_BROKER_IP"
 
 # MQTT 토픽 설정 (사용자 정의)
 TOPIC_STATUS = b"styler/status"   # 온습도 데이터 발신
